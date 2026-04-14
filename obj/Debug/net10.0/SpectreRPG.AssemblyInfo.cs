@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpectreRPG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fc79ba7cf8e6f71d44d3e996e426c5ca0da6eb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpectreRPG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpectreRPG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

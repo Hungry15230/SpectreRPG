@@ -197,4 +197,5 @@ That should complete this basic program. After you equip the item, it restarts t
 
 
 Hint 1: Turn the final if statement into an if-else.
+
 Hint 2: There's .Add for lists, there's also .Remove

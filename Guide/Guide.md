@@ -188,7 +188,7 @@ foreach(string item in inventory)
     prompt.AddChoice(item);
 }
 ```
-Now we need to store the user's choice in something and actually ask them the question, all we've done so far is create a prompt that we can display whenever. To do this we create a variable to store the choice, `var choice = ` and to ask the question we pass out `prompt` to `AnsiConsole.Prompt(prompt);`. So now our variable assignment looks like `var choice = AnsiConsole.Prompt(prompt);`
+Now we need to store the user's choice in something and actually ask them the question, all we've done so far is create a prompt that we can display whenever. To do this we create a variable to store the choice, `var choice = ` and to ask the question we pass through `prompt` to `AnsiConsole.Prompt(prompt);`. So now our variable assignment looks like `var choice = AnsiConsole.Prompt(prompt);`
 
 so now we have the user's choice, which will be the weapon they've selected to equip. Now we could just add it to the `equipped` list immediately but what if it's already there? We dont want to equip it more than once. So we need to use an if statement to check wether or not it's already equipped. So we just have to check `if(!equipped.Contains(choice))`. The exclamation point there means 'not', so if `equipped` does *not* contain `choice` then we can add it using `equipped.Add(choice);`.
 

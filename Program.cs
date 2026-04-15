@@ -372,7 +372,7 @@ static class Input
 // Main Program
 class Program
 {
-    static void Main()
+    static void temp()
     {
         AnsiConsole.Clear();
 

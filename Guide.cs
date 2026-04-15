@@ -1,7 +1,9 @@
+using Spectre.Console;
+
 class Guide
 {
     static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        AnsiConsole.MarkupLine("[green]Hello, World![/]");
     }
 }
